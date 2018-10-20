@@ -18,8 +18,8 @@ There's two workshops: Intro to Python (introductory level) and Data Analysis in
 	  - Inserir, Eliminar pacientes
 	  - Consultar pacientes:
 	    - Diagnosticar obesidade através de IMC
-		- Diagnosticar diabetes
-		- Analisar consumo calórico semanal
+      - Diagnosticar diabetes
+      - Analisar consumo calórico semanal
 	  - Estatísticas: min, max, média:
 		- IMC
 		- Idade
@@ -30,7 +30,7 @@ There's two workshops: Intro to Python (introductory level) and Data Analysis in
    	   * Data files:
          * [Patient Dataset](./intro_python/patient_dataset.csv)
          * [Daily calorie intake table](./intro_python/calorie_intake.csv)
-       * [Template](./intro_python/project_template.py)
+       * [Template](./intro_python/projecto_template.py)
        * Full code
 
 4. Extra:
@@ -42,7 +42,7 @@ There's two workshops: Intro to Python (introductory level) and Data Analysis in
       * [Python Standard Library](https://docs.python.org/3/library/index.html)
       * [Anaconda Distribution](https://www.anaconda.com/distribution/)
       * [Jupyter Notebooks](https://jupyter.org)
-      * [Sypder IDE](https://www.spyder-ide.org/)
+      * [Spyder IDE](https://www.spyder-ide.org/)
    2. Tutorials and Learning Material  
       * [Learn Python the Hard Way](https://learnpythonthehardway.org/book/)
 
