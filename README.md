@@ -13,18 +13,18 @@ There's two workshops: Intro to Python (introductory level) and Data Analysis in
 3. Final project:
 
    1. Objectivo:
-   	  Construir programa de gestão clínica médica. Deve permitir:
+      Construir programa de gestão clínica médica. Deve permitir:
       - Listar pacientes
-	  - Inserir, Eliminar pacientes
-	  - Consultar pacientes:
-	    - Diagnosticar obesidade através de IMC
-      - Diagnosticar diabetes
-      - Analisar consumo calórico semanal
-	  - Estatísticas: min, max, média:
-		- IMC
-		- Idade
-		- Peso
-		- Ritmo cardíaco
+      - Inserir, Eliminar pacientes
+      - Consultar pacientes:
+        - Diagnosticar obesidade através de IMC
+        - Diagnosticar diabetes
+        - Analisar consumo calórico semanal
+      - Estatísticas: min, max, média:
+      - IMC
+      - Idade
+      - Peso
+      - Ritmo cardíaco
 
 	2. Código e dados:
    	   * Data files:
