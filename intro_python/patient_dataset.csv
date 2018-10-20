@@ -1,0 +1,11 @@
+id,name,gender,age,weight (kg),height (m),hearth rhythm (bpm),blood pressure,glucose level (fasting)(mg/dl),calorie intake (week)
+1,Fox Mulder,m,24,70,1.75,60,12;8,80,8400
+2,Olivia Palito,f,14,45,1.90,72,13;9,78,9800
+3,Betty Boop,f,16,50,1.63,63,12;8,100,14000
+4,Bruce Wane,m,45,65,1.78,69,15;10,140,16800
+5,Louis Lane,f,57,64,1.52,80,12;9,93,17780
+6,Mark Twain,m,70,80,1.55,78,14;10,130,8400
+7,Anna Montana,f,25,78,1.67,50,13;7,89,12600
+8,Lara Croft,f,28,60,1.69,56,11;7,85,21000
+9,Marie Curie,f,48,74,1.72,62,13;8,64,16450
+10,Charlie Chaplin,m,32,81,1.80,48,12;9,124,14700
