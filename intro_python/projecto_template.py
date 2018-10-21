@@ -137,7 +137,7 @@ def check_calory_intake(patient):
 #------------------------------#
     
 def load_patients():
-    data = read_file_data('dataset_pacientes.csv')
+    data = read_file_data('patient_dataset.csv')
     patients = []
     for line in data:
         patient = {}
@@ -181,7 +181,7 @@ def read_file_data(filepath):
     return data
 
 def write_file_data(data):
-    f = open('dataset_pacientes.csv', 'w')
+    f = open('patient_dataset.csv', 'w')
     lines = []
     for line in data:
         l = ','.join([val for (key,val) in line.items()])

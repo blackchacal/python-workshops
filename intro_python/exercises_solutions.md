@@ -1,5 +1,44 @@
 # Exercises list and solutions
 
+All the exercises are in the same order as the presentation, even if numbering is not the same.
+
+1. Obter o 2º, 3º e 4º caracteres  da string "Anatomia".
+
+```python
+str = 'Anatomia'
+print(str[1])
+print(str[2])
+print(str[3])
+```
+
+1. Concatenar as strings 'ester', 'no', 'cleido', 'mas', 'toideu' e indicar o tamanho da string final.
+
+```python
+print(len('ester'+'no'+'cleido'+'mas'+'toideu'))
+```
+
+1. Comparar as palavras 'casa' e 'Casa', com <, > e ==.
+
+```python
+print('casa' < 'Casa')
+print('casa' > 'Casa')
+print('casa' == 'Casa')
+```
+
+1. Ler uma string da consola e apresentar o seu tamanho formatado na string: "A minha string tem xx letras".
+
+```python
+str = input('Insira uma string: ')
+print('A minha string tem {} letras'.format(len(str)))
+```
+
+1. Verificar se a palavra biomédica está presente no seguinte texto : "A Engenharia biomédica é uma área que integra princípios das ciências exatas e ciências da saúde."
+
+```python
+str = "A Engenharia biomédica é uma área que integra princípios das ciências exatas e ciências da saúde."
+print('biomédica' in str)
+```
+
 1. Ler altura e peso da consola e calcular IMC com o valor formatado. IMC = altura / massa² (m/kg²)
 
 ```python
@@ -88,6 +127,37 @@ print(nums)
 # outra forma
 nums = [i for i in range(1,51) if i%2!=0]
 print(nums)
+```
+
+1. Multiplicar cada elemento da lista [1, 2, 3] por 3 e colocar numa nova variável.
+
+```python
+list = [1,2,3]
+multiplied = [item*3 for item in list] 
+print(multiplied)
+```
+
+1. Criar uma lista da primeira letra de cada palabra do vector: words = ["this","is","a","list","of","words"]
+
+```python
+words = ["this","is","a","list","of","words"]
+items = [ word[0] for word in words ]
+print(items)
+```
+
+1. Verificar se o n.º 10 existe no dicionário e indicar a sua chave: d = {'a':1, 'b':11, 'c':53, 'd':10, 'e':7}
+
+```python
+d = {'a':1, 'b':11, 'c':53, 'd':10, 'e':7}
+print(10 in d.values())
+keys = [k for (k, v) in d.items() if v == 10]
+```
+
+1. Converter todos os caracteres da lista para minúsculas. l = ['M', 'I', 'N', 'U', 'S', 'C', 'U', 'L', 'A', 'S']
+
+```python
+l = ['M', 'I', 'N', 'U', 'S', 'C', 'U', 'L', 'A', 'S']
+ll = [c.lower() for c in l]
 ```
 
 9. Criar função para calcular o IMC
