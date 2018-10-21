@@ -11,13 +11,13 @@ print(str[2])
 print(str[3])
 ```
 
-1. Concatenar as strings 'ester', 'no', 'cleido', 'mas', 'toideu' e indicar o tamanho da string final.
+2. Concatenar as strings 'ester', 'no', 'cleido', 'mas', 'toideu' e indicar o tamanho da string final.
 
 ```python
 print(len('ester'+'no'+'cleido'+'mas'+'toideu'))
 ```
 
-1. Comparar as palavras 'casa' e 'Casa', com <, > e ==.
+3. Comparar as palavras 'casa' e 'Casa', com <, > e ==.
 
 ```python
 print('casa' < 'Casa')
@@ -25,21 +25,21 @@ print('casa' > 'Casa')
 print('casa' == 'Casa')
 ```
 
-1. Ler uma string da consola e apresentar o seu tamanho formatado na string: "A minha string tem xx letras".
+4. Ler uma string da consola e apresentar o seu tamanho formatado na string: "A minha string tem xx letras".
 
 ```python
 str = input('Insira uma string: ')
 print('A minha string tem {} letras'.format(len(str)))
 ```
 
-1. Verificar se a palavra biomédica está presente no seguinte texto : "A Engenharia biomédica é uma área que integra princípios das ciências exatas e ciências da saúde."
+5. Verificar se a palavra biomédica está presente no seguinte texto : "A Engenharia biomédica é uma área que integra princípios das ciências exatas e ciências da saúde."
 
 ```python
 str = "A Engenharia biomédica é uma área que integra princípios das ciências exatas e ciências da saúde."
 print('biomédica' in str)
 ```
 
-1. Ler altura e peso da consola e calcular IMC com o valor formatado. IMC = altura / massa² (m/kg²)
+6. Ler altura e peso da consola e calcular IMC com o valor formatado. IMC = altura / massa² (m/kg²)
 
 ```python
 altura = float(input('Insira a altura: '))
@@ -48,7 +48,7 @@ imc = altura / massa ** 2
 print(imc)
 ```
 
-2. Listar o valor lógico da inclusão do IMC nas categorias seguintes:
+7. Listar o valor lógico da inclusão do IMC nas categorias seguintes:
 [17   ; 18,5[ - Magreza leve: True or False?
 [18,5 ; 25  [ - Saudável: True or False?
 [25   ; 30  [ - Sobrepeso: True or False?
@@ -59,7 +59,7 @@ print('Saudável: '+str(imc >= 18.5 and imc < 25))
 print('Sobrepeso: '+str(imc >= 25 and imc < 30))
 ```
 
-3. Ler IMC da consola e escrever uma mensagem consoante o intervalo do IMC
+8. Ler IMC da consola e escrever uma mensagem consoante o intervalo do IMC
 
 ```python
 imc = input('O seu imc: ')
@@ -73,7 +73,7 @@ else:
 	print('Fora da escala!!')
 ```
  
-4. Ler lista de valores de valores de IMC e achar o max e min: 
+9. Ler lista de valores de valores de IMC e achar o max e min: 
 	lista de IMCs: [12, 17.5, 22, 26, 15.4]
 
 ```python
@@ -82,7 +82,7 @@ print('Min: '+str(min(imcs)))
 print('Max: '+str(max(imcs)))
 ```
 
-5. Ordenar a lista anterior por ordem crescente
+10. Ordenar a lista anterior por ordem crescente
 
 ```python
 imcs = [12, 17.5, 22, 26, 15.4]
@@ -95,7 +95,7 @@ imcs.sort()
 print(imcs)
 ```
 
-6. Criar dicionario com nome paciente, altura e peso, e calcular o IMC desse paciente
+11. Criar dicionario com nome paciente, altura e peso, e calcular o IMC desse paciente
 
 ```python
 paciente = {
@@ -107,7 +107,7 @@ imc = paciente['altura'] / paciente['peso']**2
 print(imc)
 ```
 
-7. Repetir o exercicio anterior mas usando tuples
+12. Repetir o exercicio anterior mas usando tuples
 
 ```python
 paciente = ('ricardo', 80, 1.80)
@@ -115,7 +115,7 @@ imc = paciente[2] / paciente[1]**2
 print(imc)
 ```
  
-8. Criar uma lista de números naturais ímpares até 50
+13. Criar uma lista de números naturais ímpares até 50
 
 ```python
 nums = []
@@ -129,7 +129,7 @@ nums = [i for i in range(1,51) if i%2!=0]
 print(nums)
 ```
 
-1. Multiplicar cada elemento da lista [1, 2, 3] por 3 e colocar numa nova variável.
+14. Multiplicar cada elemento da lista [1, 2, 3] por 3 e colocar numa nova variável.
 
 ```python
 list = [1,2,3]
@@ -137,7 +137,7 @@ multiplied = [item*3 for item in list]
 print(multiplied)
 ```
 
-1. Criar uma lista da primeira letra de cada palabra do vector: words = ["this","is","a","list","of","words"]
+15. Criar uma lista da primeira letra de cada palabra do vector: words = ["this","is","a","list","of","words"]
 
 ```python
 words = ["this","is","a","list","of","words"]
@@ -145,7 +145,7 @@ items = [ word[0] for word in words ]
 print(items)
 ```
 
-1. Verificar se o n.º 10 existe no dicionário e indicar a sua chave: d = {'a':1, 'b':11, 'c':53, 'd':10, 'e':7}
+16. Verificar se o n.º 10 existe no dicionário e indicar a sua chave: d = {'a':1, 'b':11, 'c':53, 'd':10, 'e':7}
 
 ```python
 d = {'a':1, 'b':11, 'c':53, 'd':10, 'e':7}
@@ -153,21 +153,21 @@ print(10 in d.values())
 keys = [k for (k, v) in d.items() if v == 10]
 ```
 
-1. Converter todos os caracteres da lista para minúsculas. l = ['M', 'I', 'N', 'U', 'S', 'C', 'U', 'L', 'A', 'S']
+17. Converter todos os caracteres da lista para minúsculas. l = ['M', 'I', 'N', 'U', 'S', 'C', 'U', 'L', 'A', 'S']
 
 ```python
 l = ['M', 'I', 'N', 'U', 'S', 'C', 'U', 'L', 'A', 'S']
 ll = [c.lower() for c in l]
 ```
 
-9. Criar função para calcular o IMC
+18. Criar função para calcular o IMC
 
 ```python
 def imc(height, weight):
 	return weight / height ** 2
 ```
 
-10. Criar função para calcular calorias semanais com base na idade.
+19. Criar função para calcular calorias semanais com base na idade.
 cal = [(20, 1200), (25, 1800), (30, 1600), (40, 1300)]
 
 ```python
@@ -177,7 +177,7 @@ def weekly_cal(age):
 	return age_cal*7
 ```
 
-11. Criar função para verificar existência de diabetes com base nos níveis de glicose no sangue
+20. Criar função para verificar existência de diabetes com base nos níveis de glicose no sangue
 
 ```python
 def check_diabetes(patient):
