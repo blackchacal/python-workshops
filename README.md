@@ -48,4 +48,35 @@ There's two workshops: Intro to Python (introductory level) and Data Analysis in
 
 ## Data Analysis in Python
 
-More info soon...
+1. [Workshop presentation (PDF)](./python_data_analysis/presentation.pdf)
+
+2. [Numpy Tutorial Notebook](./python_data_analysis/numpy_tutorial.ipynb)
+
+3. [Pandas Tutorial Notebook](./python_data_analysis/pandas_tutorial.ipynb)
+
+4. [Matplotlib Pyplot Tutorial Notebook](./python_data_analysis/pyplot_tutorial.ipynb)
+
+5. Project:
+
+   1. [Pratice Notebook](./python_data_analysis/project.ipynb)
+
+   2. [Project Data](./python_data_analysis/HFAMDB_dataset)
+
+6. Extra:
+
+   * [Numpy Cheat Sheet](./python_data_analysis/Numpy_Python_Cheat_Sheet.pdf)
+   * [Pandas Cheat Sheet](./python_data_analysis/Python_Pandas_Cheat_Sheet.pdf)
+   * [Matplotlib Cheat Sheet](./python_data_analysis/Python_Matplotlib_Cheat_Sheet.pdf)
+
+6. References:
+   1. Oficial references:
+      * [Scipy Project Documentation](https://scipy.org/docs.html)
+      * [Numpy Reference](https://docs.scipy.org/doc/numpy/reference/index.html)
+      * [Scipy Reference](https://docs.scipy.org/doc/scipy/reference/)
+      * [Pandas Documentation](http://pandas.pydata.org/pandas-docs/stable/)
+      * [Matplotlib API](https://matplotlib.org/api/api_overview.html)
+   2. Tutorials and Learning Material  
+      * [Tutorials Point - Scipy Tutorial](https://www.tutorialspoint.com/scipy/index.htm)
+      * [Tutorials Point - Numpy Tutorial](https://www.tutorialspoint.com/numpy/index.htm)
+      * [Tutorials Point - Pandas Tutorial](https://www.tutorialspoint.com/python_pandas/index.htm)
+      * [Matplotlib Official - Pyplot Tutorial](https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py)
