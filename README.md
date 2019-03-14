@@ -31,7 +31,7 @@ There's two workshops: Intro to Python (introductory level) and Data Analysis in
          * [Patient Dataset](./intro_python/patient_dataset.csv)
          * [Daily calorie intake table](./intro_python/calorie_intake.csv)
        * [Template](./intro_python/projecto_template.py)
-       * Full code
+       * [Full code](./intro_python/projecto.py)
 
 4. Extra:
    * [Python Cheat Sheet](./intro_python/python3-cheatsheet-english.pdf)
